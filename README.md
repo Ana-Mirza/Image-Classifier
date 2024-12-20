@@ -56,7 +56,7 @@ data/
 ```
 
 ## Results Summary
-This is a summary of the models/ accuracy after being trained with the datasets after applying different extraction methodologies and tuning the hyperparameters.
+This is a summary of the models' accuracy after being trained with the datasets after applying different extraction methodologies and tuning the hyperparameters.
 
 TODO: insert table
 
