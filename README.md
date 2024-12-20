@@ -20,7 +20,7 @@ The [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) data set i
 
 **Link:** https://github.com/zalandoresearch/fashion-mnist
 
-#### Project File Structure
+### Project File Structure
 ```console
 $ tree -L 1
 .
