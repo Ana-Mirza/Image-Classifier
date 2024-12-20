@@ -21,6 +21,7 @@ The Fashion-MNIST data set is a balanced dataset of 10 classes of clothing items
 **Link:** https://github.com/zalandoresearch/fashion-mnist
 
 ### Project File Structure
+Two additional folders named "input/" and "data/" need to be created to run the source code.
 ```console
 $ tree -L 1
 .
@@ -46,7 +47,7 @@ input/
     └── Training
 ```
 
-Since the data sets are too big to be loaded into memory, intermediate results are calculated and stored on persistent memory to be later processed and used for training. For this, another folder named "data/" is needed, with the following folders inside:
+Since the data sets are too big to be loaded into memory, intermediate results are calculated and stored in the "data/" folder to be later processed and used for training. For this, additional folders are needed.
 ```console
 $ tree -L 1 /data
 data/
