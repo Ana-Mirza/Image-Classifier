@@ -1,7 +1,7 @@
 # Image Classifier
 
 This repo contains the machine learning homework of image classification using two datasets with several models.
-It includes the jupyter notebook with the source code of the implementation and a report of the results obtained in a pdf file.
+It includes the jupyter notebook with the source code of the implementation and a pdf file report of the results obtained.
 
 - data extraction, transformation and attribute extraction
 - model training and evaluation
@@ -9,8 +9,16 @@ It includes the jupyter notebook with the source code of the implementation and 
 
 ## Data Sets
 ### 1. Fruits-360
+The [Fruits-360](https://www.kaggle.com/datasets/moltean/fruits) dataset was one of the data sets used for analysing different strategies of attribute extraction and hyperparameter tuning on several models.
+Since the data set was inbalanced, we were able to observe the effect of class distribution on the model performance.
+Visualizations included in the report are limited to the 10 biggest classes in the data set because there are 70 total classes of fruits and vegetables.
+
+**Link:** https://www.kaggle.com/datasets/moltean/fruits
 
 ### 2. Fashion-MNIST
+The Fashion-MNIST data set is a balanced dataset of 10 classes of clothing items. The link of the data set is included below.
+
+**Link:** https://github.com/zalandoresearch/fashion-mnist
 
 #### Project File Structure
 ```console
@@ -58,4 +66,4 @@ Based on the analysis perfomed on the data sets and the training of the models u
 1. **40% lower** results obtained with an imbalanced data set
 2. **30% better** accuracy with **data normalization** applied before PCA
 3. **1%-5%** better results after **Hyperparameter tuning**
-4. **Attribute extraction algorithm**  
+4. **30% better** results with best **attribute extraction algorithm** on best model (SVM - HIST vs PCA for Fruits-360)
