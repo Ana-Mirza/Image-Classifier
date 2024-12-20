@@ -63,7 +63,7 @@ TODO: insert table
 ## Conclusions
 Based on the analysis perfomed on the data sets and the training of the models using different methods, several conclusions were extracted on the following topics:
 
-1. **40% lower** results obtained with an imbalanced data set
+1. **40% lower** results obtained with an **imbalanced data set**
 2. **30% better** accuracy with **data normalization** applied before PCA
 3. **1%-5%** better results after **Hyperparameter tuning**
 4. **30% better** results with best **attribute extraction algorithm** on best model (SVM - HIST vs PCA for Fruits-360)
