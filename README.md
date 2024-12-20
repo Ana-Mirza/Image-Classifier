@@ -14,12 +14,37 @@ It includes the jupyter notebook with the source code of the implementation and 
 
 #### Project File Structure
 ```console
-$ ls -l
--rw-r--r-- 1 user user  3572476 Dec 20 10:46 ImageClassifier.ipynb
--rw-r--r-- 1 user user     1159 Dec 20 11:33 README.md
-drwxr-xr-x 6 user user     4096 Nov 25 23:27 data
-drwxr-xr-x 4 user user     4096 Nov 21 14:35 input
--rw-r--r-- 1 user user      744 Nov 21 14:31 mnist_reader.py
+$ tree -L 1
+.
+├── Image-Classifier-Report.pdf
+├── ImageClassifier.ipynb
+├── README.md
+├── data
+├── input
+└── mnist_reader.py
+```
+
+The data sets should be plased in the "input/" folder as demonstrated below:
+```console
+$ tree -L 2 input/
+input/
+├── fashion
+│   ├── t10k-images-idx3-ubyte.gz
+│   ├── t10k-labels-idx1-ubyte.gz
+│   ├── train-images-idx3-ubyte.gz
+│   └── train-labels-idx1-ubyte.gz
+└── fruits-360
+    ├── Test
+    └── Training
+```
+
+Since the data sets are too big to be loaded into memory, intermediate results are calculated and stored on persistent memory to be later processed and used for training. For this, another folder named "data/" is needed, with the following folders inside:
+```console
+$ tree -L 1 /data
+data/
+├── fashion
+├── final
+└── fruits-360
 ```
 
 ## Results Summary
