@@ -1,7 +1,7 @@
 # Image Classifier
 
-This repo contains the machine learning homework of image classification using two datasets with several models.
-It includes the jupyter notebook with the source code of the implementation and a pdf file report of the results obtained.
+This repo contains the machine learning homework of image classification using two datasets and several models from python *sklearn* library.
+It includes the jupyter notebook with the source code of the implementation and a pdf file report containing:
 
 - data extraction, transformation and attribute extraction
 - model training and evaluation
