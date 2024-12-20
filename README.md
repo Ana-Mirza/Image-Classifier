@@ -61,7 +61,7 @@ This is a summary of the models' accuracy after being trained with the datasets 
 TODO: insert table
 
 ## Conclusions
-Based on the analysis perfomed on the data sets and the training of the models using different methods, several conclusions were extracted on the following topics:
+Based on the analysis perfomed on the data sets and the training of the models using different methods, several conclusions were extracted:
 
 1. **40% lower** results obtained with an **imbalanced data set**
 2. **30% better** accuracy with **data normalization** applied before PCA
