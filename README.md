@@ -16,7 +16,7 @@ Visualizations included in the report are limited to the 10 biggest classes in t
 **Link:** https://www.kaggle.com/datasets/moltean/fruits
 
 ### 2. Fashion-MNIST
-The Fashion-MNIST data set is a balanced dataset of 10 classes of clothing items. The link of the data set is included below.
+The [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) data set is a balanced dataset of 10 classes of clothing items. The link of the data set is included below.
 
 **Link:** https://github.com/zalandoresearch/fashion-mnist
 
