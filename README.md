@@ -57,9 +57,22 @@ data/
 ```
 
 ## Results Summary
-This is a summary of the models' accuracy after being trained with the datasets after applying different extraction methodologies and tuning the hyperparameters.
+This is a summary of the models' accuracy after being trained with the datasets, applying different extraction methodologies and tuning the hyperparameters.
 
-TODO: insert table
+| Model | Attribute Selection Algorithm | Fruits-360 | Fashion |
+| --- | --- | --- | --- |
+| Logistic Regression | HIST | 61.78% | - |
+| | PCA (70 PC) | 71.78% | - |
+| | HOG - PCA (20 PC) | - | 80.98% |
+| SVM | HIST | 70.89% | - |
+| | PCA (70 PC) | 92.35% | - |
+| | HOG - PCA | - | 87.54% |
+| Random Forest | HIST | 59.46% | - |
+| | PCA (70 PC) | 87.31% | - |
+| | HOG - PCA (20 PC) | - | 85.29% |
+| Gradient Boosted Trees | HIST | 59.38% | - |
+| | PCA (70 PC) | 81.16% | - |
+| | HOG - PCA (20 PC) | - | 85.83% |
 
 ## Conclusions
 Based on the analysis perfomed on the data sets and the training of the models using different methods, several conclusions were extracted:
